@@ -1,0 +1,40 @@
+{
+    "name" : "BufferIO",
+    "keywords": [
+        "buffer",
+		"binary"
+    ],
+    "description": "Buffer read/write util",
+    "homepage": "http://github.com/mah0x211/node-bufferio",
+    "version" : "0.0.1",
+    "licenses" : [
+        {
+            "type": "MIT" 
+        } 
+    ],
+    "main" : "./lib/BufferIO",
+    "directories" : {
+        "lib" : "./lib" 
+    },
+    "dependencies": {
+        "ctype": "> 0.0.1"
+    },
+    "engines" : {
+        "node" : ">= 0.4.0" 
+    },
+    "maintainers": [
+        {
+            "name": "Masatoshi Teruya",
+            "email": "mah0x211@gmail",
+            "web": "http://kontext.jp/" 
+        } 
+    ],
+    "repository": {
+        "type" : "git",
+        "url": "http://github.com/mah0x211/node-bufferio.git" 
+    },
+    "bugs" : {
+        "mail" : "" ,
+        "web" : "http://github.com/mah0x211/node-bufferio/issues" 
+    }
+}
