@@ -6,7 +6,7 @@
     ],
     "description": "Buffer read/write util",
     "homepage": "http://github.com/mah0x211/node-bufferio",
-    "version" : "0.0.1",
+    "version" : "0.0.2",
     "licenses" : [
         {
             "type": "MIT" 

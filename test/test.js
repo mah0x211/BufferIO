@@ -13,3 +13,6 @@ console.log( bio.buf );
 bio.write.string( 'sample' );
 console.log( bio.buf );
 console.log( bio.buf.toString() );
+bio.pos = 0;
+var buf = bio.read.buffer();
+console.log( buf );
